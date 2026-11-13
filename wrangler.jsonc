@@ -13,6 +13,10 @@
   // Preserve per-instance WEB_ACCESS_TEAM_DOMAIN and WEB_ACCESS_AUD from
   // Worker Settings > Variables and Secrets. Missing values deny all API access.
   "keep_vars": true,
+  "vars": {
+    "WEB_ACCESS_TEAM_DOMAIN": "https://flintglen.cloudflareaccess.com",
+    "WEB_ACCESS_AUD": "8317f29db851aea4be7e32d2a8168f3699c25ed7846390611a77f144940daac2"
+  },
   "assets": {
     "not_found_handling": "single-page-application",
     // /mcp (including /mcp/oauth/*) and /.well-known/* serve MCP and OAuth;
